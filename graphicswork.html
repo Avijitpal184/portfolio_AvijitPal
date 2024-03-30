@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAV ICON ==============-->
+    <link rel="shortcut icon" type="image/x-icon" href="Assest/images/profile-icon.png">
+    
+    <!--=============== REMIX ICON ==============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet"/>
+
+    <!--=============== BOOTSTRAP ICON ==============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"/>
+
+    <!--=============== SWIPER CSS ==============-->
+    <link rel="stylesheet" href="Assest/css/swiper-bundle.min.css">
+
+    <!--=============== STYLE.CSS ==============-->
+    <link rel="stylesheet" href="Assest/css/gallery.css">
+
+    <title>Avijit Portfolio</title>
+</head>
+<body>
+    <!--=============== HEADER ==============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                AVIJIT
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link active-link">
+                            <i class="ri-home-5-line"></i> Home
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="index.html#skills" class="nav__link">
+                            <i class="ri-trophy-line"></i> Skills
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="index.html#qualification" class="nav__link">
+                            <i class="ri-book-open-line"></i> Qualification
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="index.html#services" class="nav__link">
+                            <i class="ri-briefcase-line"></i> Services
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="index.html#projects" class="nav__link">
+                            <i class="ri-image-line"></i> Projects
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="graphicswork.html" class="nav__link">
+                            <i class="ri-pen-nib-line"></i> Graphics Work
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="index.html#contact" class="nav__link">
+                            <i class="ri-chat-3-line"></i> Contact
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- Close button -->
+                <div class="nav__close" id="nav-close" onclick="hideMenu()">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__buttons">
+                <!-- Theme change button -->
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                <!-- Toggle button -->
+                <div class="nav__toggle" id="nav-toggle" onclick="showMenu()">
+                    <i class="ri-menu-3-line"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--=============== GRAPHICS WORK SECTION ==============-->
+    <section class="mygallery section" id="mygallery">
+        <h2 class="section__title">My Graphics Work</h2>
+        <span class="section__subtitle">As a Fresher</span>
+
+        <!--=============== MY GALLERY ==============-->
+        <div class="gallery container section__border">
+            <!-- swiper gallery cards -->
+            <div class="swiper gallery-cards">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <article class="gallery__card">
+                            <img src="Assest/images/graphics-img/logo.jpg" alt="image gallery" class="gallery__img">
+                            <div class="gallery__data">
+                                <h3 class="gallery__title">Logo</h3>
+                            </div>
+                        </article>
+                    </div>
+    
+                    <div class="swiper-slide">
+                        <article class="gallery__card">
+                            <img src="Assest/images/graphics-img/avalong-visitingcard.jpg" alt="image gallery" class="gallery__img">
+                            <div class="gallery__data">
+                                <h3 class="gallery__title">Avalong Visiting Card</h3>
+                            </div>
+                        </article>
+                    </div>
+    
+                    <div class="swiper-slide">
+                        <article class="gallery__card">
+                            <img src="Assest/images/graphics-img/hb-visitingcard.jpg" alt="image gallery" class="gallery__img">
+                            <div class="gallery__data">
+                                <h3 class="gallery__title">HB Visiting Card</h3>
+                            </div>
+                        </article>
+                    </div>
+    
+                    <div class="swiper-slide">
+                        <article class="gallery__card">
+                            <img src="Assest/images/graphics-img/corparet-branding.jpg" alt="image gallery" class="gallery__img">
+                            <div class="gallery__data">
+                                <h3 class="gallery__title">Corparet Branding</h3>
+                            </div>
+                        </article>
+                    </div>
+    
+                    <div class="swiper-slide">
+                        <article class="gallery__card">
+                            <img src="Assest/images/graphics-img/identy-card.jpg" alt="image gallery" class="gallery__img">
+                            <div class="gallery__data">
+                                <h3 class="gallery__title">Identy Card</h3>
+                            </div>
+                        </article>
+                    </div>
+    
+                    <div class="swiper-slide">
+                        <article class="gallery__card">
+                            <img src="Assest/images/graphics-img/burgur-socialmedia-post.jpg" alt="image gallery" class="gallery__img">
+                            <div class="gallery__data">
+                                <h3 class="gallery__title">Socialmedia Post</h3>
+                            </div>
+                        </article>
+                    </div>
+    
+                    <div class="swiper-slide">
+                        <article class="gallery__card">
+                            <img src="Assest/images/graphics-img/gym-socialmedia-post.jpg" alt="image gallery" class="gallery__img">
+                            <div class="gallery__data">
+                                <h3 class="gallery__title">Socialmedia Post</h3>
+                            </div>
+                        </article>
+                    </div>
+    
+                    <div class="swiper-slide">
+                        <article class="gallery__card">
+                            <img src="Assest/images/graphics-img/jblbox-socialmedia-post.jpg" alt="image gallery" class="gallery__img">
+                            <div class="gallery__data">
+                                <h3 class="gallery__title">Socialmedia Post</h3>
+                            </div>
+                        </article>
+                    </div>
+    
+                    <div class="swiper-slide">
+                        <article class="gallery__card">
+                            <img src="Assest/images/graphics-img/laptop-socialmedia-post.jpg" alt="image gallery" class="gallery__img">
+                            <div class="gallery__data">
+                                <h3 class="gallery__title">Socialmedia Post</h3>
+                            </div>
+                        </article>
+                    </div>
+    
+                    <div class="swiper-slide">
+                        <article class="gallery__card">
+                            <img src="Assest/images/graphics-img/food-flayer.jpg" alt="image gallery" class="gallery__img">
+                            <div class="gallery__data">
+                                <h3 class="gallery__title">Food Flayer</h3>
+                            </div>
+                        </article>
+                    </div>
+    
+                    <div class="swiper-slide">
+                        <article class="gallery__card">
+                            <img src="Assest/images/graphics-img/gym-flyer.jpg" alt="image gallery" class="gallery__img">
+                            <div class="gallery__data">
+                                <h3 class="gallery__title">Gym Flayer</h3>
+                            </div>
+                        </article>
+                    </div>
+    
+                    <div class="swiper-slide">
+                        <article class="gallery__card">
+                            <img src="Assest/images/graphics-img/travel-flyer.jpg" alt="image gallery" class="gallery__img">
+                            <div class="gallery__data">
+                                <h3 class="gallery__title">Travel Flayer</h3>
+                            </div>
+                        </article>
+                    </div>
+    
+                    <div class="swiper-slide">
+                        <article class="gallery__card">
+                            <img src="Assest/images/graphics-img/food-brochure.jpg" alt="image gallery" class="gallery__img">
+                            <div class="gallery__data">
+                                <h3 class="gallery__title">Food Brochure</h3>
+                            </div>
+                        </article>
+                    </div>
+    
+                    <div class="swiper-slide">
+                        <article class="gallery__card">
+                            <img src="Assest/images/graphics-img/anime-magazine.jpg" alt="image gallery" class="gallery__img">
+                            <div class="gallery__data">
+                                <h3 class="gallery__title">Anime Magazine</h3>
+                            </div>
+                        </article>
+                    </div>
+    
+                    <div class="swiper-slide">
+                        <article class="gallery__card">
+                            <img src="Assest/images/graphics-img/movie-poster.jpg" alt="image gallery" class="gallery__img">
+                            <div class="gallery__data">
+                                <h3 class="gallery__title">Movie Poster</h3>
+                            </div>
+                        </article>
+                    </div>
+    
+                    <div class="swiper-slide">
+                        <article class="gallery__card">
+                            <img src="Assest/images/graphics-img/gym-standee.jpg" alt="image gallery" class="gallery__img">
+                            <div class="gallery__data">
+                                <h3 class="gallery__title">Gym Standee</h3>
+                            </div>
+                        </article>
+                    </div>
+    
+                    <div class="swiper-slide">
+                        <article class="gallery__card">
+                            <img src="Assest/images/graphics-img/food-billboard.jpg" alt="image gallery" class="gallery__img">
+                            <div class="gallery__data">
+                                <h3 class="gallery__title">Food Billboard</h3>
+                            </div>
+                        </article>
+                    </div>
+    
+                    <div class="swiper-slide">
+                        <article class="gallery__card">
+                            <img src="Assest/images/graphics-img/gym-billboard.jpg" alt="image gallery" class="gallery__img">
+                            <div class="gallery__data">
+                                <h3 class="gallery__title">Gym Billboard</h3>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <article class="gallery__card">
+                            <img src="Assest/images/graphics-img/bootstrap_website_template.jpg" alt="image gallery" class="gallery__img">
+                            <div class="gallery__data">
+                                <h3 class="gallery__title">Web layout Designe</h3>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <article class="gallery__card">
+                            <img src="Assest/images/graphics-img/web_site_teplate_1.jpg" alt="image gallery" class="gallery__img">
+                            <div class="gallery__data">
+                                <h3 class="gallery__title">Web layout Designe</h3>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- swiper gallery thumbnail -->
+            <div class="gallery__overflow">
+                <div class="swiper gallery-thumbs">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="gallery__thumbnail">
+                                <img src="Assest/images/graphics-img/logo.jpg" alt="image thumbnail" class="gallery__thumbnail-img">
+                            </div>
+                        </div>
+    
+                        <div class="swiper-slide">
+                            <div class="gallery__thumbnail">
+                                <img src="Assest/images/graphics-img/avalong-visitingcard.jpg" alt="image thumbnail" class="gallery__thumbnail-img">
+                            </div>
+                        </div>
+    
+                        <div class="swiper-slide">
+                            <div class="gallery__thumbnail">
+                                <img src="Assest/images/graphics-img/hb-visitingcard.jpg" alt="image thumbnail" class="gallery__thumbnail-img">
+                            </div>
+                        </div>
+    
+                        <div class="swiper-slide">
+                            <div class="gallery__thumbnail">
+                                <img src="Assest/images/graphics-img/corparet-branding.jpg" alt="image thumbnail" class="gallery__thumbnail-img">
+                            </div>
+                        </div>
+    
+                        <div class="swiper-slide">
+                            <div class="gallery__thumbnail">
+                                <img src="Assest/images/graphics-img/identy-card.jpg" alt="image thumbnail" class="gallery__thumbnail-img">
+                            </div>
+                        </div>
+    
+                        <div class="swiper-slide">
+                            <div class="gallery__thumbnail">
+                                <img src="Assest/images/graphics-img/burgur-socialmedia-post.jpg" alt="image thumbnail" class="gallery__thumbnail-img">
+                            </div>
+                        </div>
+    
+                        <div class="swiper-slide">
+                            <div class="gallery__thumbnail">
+                                <img src="Assest/images/graphics-img/gym-socialmedia-post.jpg" alt="image thumbnail" class="gallery__thumbnail-img">
+                            </div>
+                        </div>
+    
+                        <div class="swiper-slide">
+                            <div class="gallery__thumbnail">
+                                <img src="Assest/images/graphics-img/jblbox-socialmedia-post.jpg" alt="image thumbnail" class="gallery__thumbnail-img">
+                            </div>
+                        </div>
+    
+                        <div class="swiper-slide">
+                            <div class="gallery__thumbnail">
+                                <img src="Assest/images/graphics-img/laptop-socialmedia-post.jpg" alt="image thumbnail" class="gallery__thumbnail-img">
+                            </div>
+                        </div>
+    
+                        <div class="swiper-slide">
+                            <div class="gallery__thumbnail">
+                                <img src="Assest/images/graphics-img/food-flayer.jpg" alt="image thumbnail" class="gallery__thumbnail-img">
+                            </div>
+                        </div>
+    
+                        <div class="swiper-slide">
+                            <div class="gallery__thumbnail">
+                                <img src="Assest/images/graphics-img/gym-flyer.jpg" alt="image thumbnail" class="gallery__thumbnail-img">
+                            </div>
+                        </div>
+    
+                        <div class="swiper-slide">
+                            <div class="gallery__thumbnail">
+                                <img src="Assest/images/graphics-img/travel-flyer.jpg" alt="image thumbnail" class="gallery__thumbnail-img">
+                            </div>
+                        </div>
+    
+                        <div class="swiper-slide">
+                            <div class="gallery__thumbnail">
+                                <img src="Assest/images/graphics-img/food-brochure.jpg" alt="image thumbnail" class="gallery__thumbnail-img">
+                            </div>
+                        </div>
+    
+                        <div class="swiper-slide">
+                            <div class="gallery__thumbnail">
+                                <img src="Assest/images/graphics-img/anime-magazine.jpg" alt="image thumbnail" class="gallery__thumbnail-img">
+                            </div>
+                        </div>
+    
+                        <div class="swiper-slide">
+                            <div class="gallery__thumbnail">
+                                <img src="Assest/images/graphics-img/movie-poster.jpg" alt="image thumbnail" class="gallery__thumbnail-img">
+                            </div>
+                        </div>
+    
+                        <div class="swiper-slide">
+                            <div class="gallery__thumbnail">
+                                <img src="Assest/images/graphics-img/gym-standee.jpg" alt="image thumbnail" class="gallery__thumbnail-img">
+                            </div>
+                        </div>
+    
+                        <div class="swiper-slide">
+                            <div class="gallery__thumbnail">
+                                <img src="Assest/images/graphics-img/food-billboard.jpg" alt="image thumbnail" class="gallery__thumbnail-img">
+                            </div>
+                        </div>
+    
+                        <div class="swiper-slide">
+                            <div class="gallery__thumbnail">
+                                <img src="Assest/images/graphics-img/gym-billboard.jpg" alt="image thumbnail" class="gallery__thumbnail-img">
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="gallery__thumbnail">
+                                <img src="Assest/images/graphics-img/bootstrap_website_template.jpg" alt="image thumbnail" class="gallery__thumbnail-img">
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="gallery__thumbnail">
+                                <img src="Assest/images/graphics-img/web_site_teplate_1.jpg" alt="image thumbnail" class="gallery__thumbnail-img">
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Swiper-pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+    
+                <!-- Swiper arrows -->
+                <div class="swiper-button-next" id="swiper-next">
+                    <i class="ri-arrow-right-line"></i>
+                </div>
+                <div class="swiper-button-prev" id="swiper-prev">
+                    <i class="ri-arrow-left-line"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--=============== FOOTER ==============-->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">Avijit Pal</h1>
+            <p>Web Devloper</p>
+
+            <ul class="footer__list">
+                <li>
+                    <a href="#home" class="footer__link">Home</a>
+                </li>
+
+                <li>
+                    <a href="#skills" class="footer__link">Skills</a>
+                </li>
+
+                <li>
+                    <a href="#projects" class="footer__link">Projects</a>
+                </li>
+            </ul>
+
+            <ul class="footer__social">
+                <a href="#" target="_blank" class="footer__social-links">
+                    <i class="ri-facebook-circle-line"></i>
+                </a>
+
+                <a href="#" target="_blank" class="footer__social-links">
+                    <i class="ri-github-line"></i>
+                </a>
+
+                <a href="#" target="_blank" class="footer__social-links">
+                    <i class="ri-linkedin-box-line"></i>
+                </a>
+            </ul>
+
+            <span class="footer__copy">
+                © Copyright AvijitPal. All right reserved
+            </span>
+        </div>
+    </footer>
+
+
+    <!--=============== SCROLL REVEAL ==============-->
+    <script src="Assest/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ==============-->
+    <script src="Assest/js/swiper-bundle.min.js"></script>
+
+    <!--=============== EMAIL JS ==============-->
+
+        
+    <!--=============== PARTICLES.JS LINK ==============-->
+    <script src="Assest/js/particles.min.js"></script>
+    <script src="Assest/js/app.js"></script>
+
+    <!--=============== MAIN.JS LINK ==============-->
+    <script src="Assest/js/gallery.js"></script>
+</body>
+</html>

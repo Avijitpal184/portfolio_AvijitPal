@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAV ICON ==============-->
+    <link rel="shortcut icon" type="image/x-icon" href="Assest/images/profile-icon.png">
+    
+    <!--=============== REMIX ICON ==============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet"/>
+
+    <!--=============== BOOTSTRAP ICON ==============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"/>
+
+    <!--=============== SWIPER CSS ==============-->
+    <link rel="stylesheet" href="Assest/css/swiper-bundle.min.css">
+
+    <!--=============== STYLE.CSS ==============-->
+    <link rel="stylesheet" href="Assest/css/style.css">
+
+    <title>Avijit Portfolio</title>
+</head>
+<body>
+    <div id="overlay__blur" class="overlay-blur"></div>
+    <!--=============== HEADER ==============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                AVIJIT
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="ri-home-5-line"></i> Home
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="ri-trophy-line"></i> Skills
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#qualification" class="nav__link">
+                            <i class="ri-book-open-line"></i> Qualification
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">
+                            <i class="ri-briefcase-line"></i> Services
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">
+                            <i class="ri-image-line"></i> Projects
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="graphicswork.html" class="nav__link">
+                            <i class="ri-pen-nib-line"></i> Graphics Work
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="ri-chat-3-line"></i> Contact
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- Close button -->
+                <div class="nav__close" id="nav-close" onclick="hideMenu()">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__buttons">
+                <!-- Theme change button -->
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                <!-- Toggle button -->
+                <div class="nav__toggle" id="nav-toggle" onclick="showMenu()">
+                    <i class="ri-menu-3-line"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <!--=============== MAIN ==============-->
+    <main class="main">
+        <!--=============== HOME ==============-->
+        <section class="home section" id="home">
+            <div id="particles-js"></div>
+            <div class="home__container container grid section__border">
+                
+                <div class="home__data grid">
+                    <h1 class="home__title">
+                        <span class="color__change kaushan">Hi,</span> <span class="kaushan">I'm Avijit Pal</span> <br>
+                        A <span class="color__change-profession"></span> <br>
+                    </h1>
+
+                    <div class="home__blob grid">
+                        <div class="home__perfil">
+                            <img src="Assest/images/profile-img.png" alt="home perfil">
+                        </div>
+
+                        <img src="Assest/images/shape-wawes.svg" alt="" class="home__shape-waves">
+                        <img src="Assest/images/shape-circle.svg" alt="" class="home__shape-circle">
+                    </div>
+
+                    <ul class="home__social">
+                        <a href="#" target="_blank" class="home__social-link">
+                            <i class="ri-facebook-circle-line"></i>
+                        </a>
+
+                        <a href="#" target="_blank" class="home__social-link">
+                            <i class="ri-github-line"></i>
+                        </a>
+
+                        <a href="#" target="_blank" class="home__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                    </ul>
+                </div>
+
+                <!--=============== HOME INFO 1 ==============-->
+                <div class="home__info">
+                    <div>
+                        <h3 class="home__info-title">
+                            ABOUT ME
+                        </h3>
+
+                        <p class="home__info-description about-paragraph">
+                            I am Avijit Pal, I was Born and Brought up at Madhyamgram, in North 24 Parganas. I am pursuing a Diploma in Graphic Design Web Development from Arena Animation Barasat. I am a Hardworking, very good listener, and good designer. I am a Fresher in this profession sector. 
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="home__info-title">
+                            CONTACT
+                        </h3>
+
+                        <p class="home__info-description">
+                           avijitpal184@gmail.com <br>
+                           +91 7044169594 <br>
+                           Kolkata, Madhyamgram, ganganagar. ( 700132 ) <br>
+                        </p>
+                    </div>
+                </div>
+
+                <!--=============== HOME INFO 2 ==============-->
+                <div class="home__info">
+                    <div>
+                        <h3 class="home__info-title">
+                            SERVICES
+                        </h3>
+
+                        <p class="home__info-service">
+                            Graphic Design, <br>
+                            Web Design, <br>
+                            Web Development, <br>
+                            Photoshop Edit <br>
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="home__info-title cv">
+                            cv
+                        </h3>
+
+                        <button class="home__info-cv"><i class="bi bi-file-earmark-arrow-down"></i> <a href="Assest/CV.pdf" download="">Download Cv</a></button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--=============== SKILLS ==============-->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle">As a Fresher</span>
+
+            <div class="skills__container container grid section__border">
+                <!--=============== SKILLS 1 ==============-->
+                <div class="skills__content">
+                    <h3 class="skills__title">
+                        <i class="ri-braces-line"></i> Development Skill
+                    </h3>
+
+                    <div class="skills__info">
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="Assest/images/html-1.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">HTML</h3>
+                            <span class="skills__subtitle">Intermediate</span>
+                        </div>
+                    
+
+                    
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="Assest/images/css-3.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">CSS</h3>
+                            <span class="skills__subtitle">Advanced</span>
+                        </div>
+                    
+
+                    
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="Assest/images/logo-javascript.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">JavaScript</h3>
+                            <span class="skills__subtitle">Intermediate</span>
+                        </div>
+                    
+
+                    
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="Assest/images/bootstrap-4.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">Bootstrap</h3>
+                            <span class="skills__subtitle">Intermediate</span>
+                        </div>
+                    
+
+                    
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="Assest/images/jquery-2.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">jQuery</h3>
+                            <span class="skills__subtitle">Basic</span>
+                        </div>
+                    
+
+                    
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="Assest/images/angular-icon-1.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">Angular</h3>
+                            <span class="skills__subtitle">Basic</span>
+                        </div>
+                    
+
+                   
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="Assest/images/php-1.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">Core PHP</h3>
+                            <span class="skills__subtitle">Basic</span>
+                        </div>
+                    
+
+                    
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="Assest/images/wordpress.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">Wordpress</h3>
+                            <span class="skills__subtitle">Intermediate</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!--=============== SKILLS 2 ==============-->
+                <div class="skills__content">
+                    <h3 class="skills__title">
+                        <i class="ri-pantone-line"></i> Software Skill
+                    </h3>
+
+                    <div class="skills__info">
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="Assest/images/adobe-photoshop-2.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">Photoshop</h3>
+                            <span class="skills__subtitle">Advanced</span>
+                        </div>
+                    
+
+                    
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="Assest/images/adobe-illustrator-cc-icon.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">Illustrator</h3>
+                            <span class="skills__subtitle">Intermediate</span>
+                        </div>
+                    
+
+                    
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="Assest/images/visual-studio-code-1.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">VS Code</h3>
+                            <span class="skills__subtitle">Advanced</span>
+                        </div>
+                    
+
+                    
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="Assest/images/Adobe_Dreamweaver.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">Dreamweaver</h3>
+                            <span class="skills__subtitle">Intermediate</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== QUALIFICATION ==============-->
+        <section class="qualification section" id="qualification">
+            <h2 class="section__title">Qualification</h2>
+            <span class="section__subtitle">Experience & Education</span>
+
+            <div class="qualification__container container grid section__border">
+                <!--=============== QUALIFICATION 1 ==============-->
+                <div class="qualification__content">
+                    <h3 class="qualification__title">
+                        <i class="ri-pencil-line"></i> Education
+                    </h3>
+
+                    <div class="qualification__info">
+                        <div>
+                            <h3 class="qualification__name">
+                                Secondary Education
+                            </h3>
+                            <span class="qualification__place">West Bengal Board Of Secondary Education</span>
+                            <span class="qualification__year">2019 - 2020</span>
+                        </div>
+
+                        <div>
+                            <h3 class="qualification__name">
+                                Higher Secondary Education
+                            </h3>
+                            <span class="qualification__place">West Bengal Council of Higher Secondary Education</span>
+                            <span class="qualification__year">2021 - 2022</span>
+                        </div>
+
+                        <div>
+                            <h3 class="qualification__name">
+                                Graduation
+                            </h3>
+                            <span class="qualification__place">West Bengal State University</span>
+                            <span class="qualification__year">2022 - Now</span>
+                        </div>
+
+                        <div>
+                            <h3 class="qualification__name">
+                                Graphic, Web Design And Web Devlopment
+                            </h3>
+                            <span class="qualification__place">Arena Animation Barasat</span>
+                            <span class="qualification__year">2022 - 2024</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!--=============== QUALIFICATION 2 ==============-->
+                <div class="qualification__content">
+                    <h3 class="qualification__title">
+                        <i class="ri-briefcase-line"></i> Experience
+                    </h3>
+
+                    <div class="qualification__info">
+                        <div>
+                            <h3 class="qualification__name">
+                                Fresher
+                            </h3>
+                            <span class="qualification__place">Completed Graphics, Web Design, And Web Development Course From Arena Animation, Barasat
+                            </span>
+                            <span class="qualification__year">2022 - 2024</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!--=============== LANGUAGE ==============-->
+                <div class="qualification__content">
+                    <h3 class="qualification__title">
+                        <i class="bi bi-translate"></i> Language
+                    </h3>
+
+                    <div class="qualification__info language-section">
+                        <div class="language__contain">
+                            <h3 class="language__title">
+                                English
+                            </h3>
+                            <div class="language__main-contain">
+                                <div class="lan english"></div>
+                                <span class="number engper">40%</span>
+                            </div>
+                        </div>
+
+                        <div class="language__contain">
+                            <h3 class="language__title">
+                                Hindi
+                            </h3>
+                            <div class="language__main-contain">
+                                <div class="lan hindi"></div>
+                                <span class="number hinper">70%</span>
+                            </div>
+                        </div>
+
+                        <div class="language__contain">
+                            <h3 class="language__title">
+                                Bengali
+                            </h3>
+                            <div class="language__main-contain">
+                                <div class="lan bengali"></div>
+                                <span class="number bngper">100%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <img src="Assest/images/shape-circle.svg" alt="qualification image" class="qualification__img">
+        </section>
+
+        <!--=============== SERVICES ==============-->
+        <section class="services section" id="services">
+            <h2 class="section__title">Services</h2>
+            <span class="section__subtitle">What i offer</span>
+
+            <div class="services__container container grid section__border">
+                <div class="services__card">
+                    <i class="ri-pen-nib-line"></i>
+
+                    <h2 class="services__title">
+                        Graphic <br>
+                        Design
+                    </h2>
+
+                    <p class="services__description">
+                        Service that provides the best quality and at 
+                        the request of the client, with professional 
+                        work and customer support.
+                    </p>
+
+                    <div class="services__border"></div>
+                </div>
+
+                <div class="services__card">
+                    <i class="ri-layout-3-line"></i>
+
+                    <h2 class="services__title">
+                        Website <br>
+                        Design
+                    </h2>
+
+                    <p class="services__description">
+                        Service that provides the best quality and at 
+                        the request of the client, with professional 
+                        work and customer support.
+                    </p>
+
+                    <div class="services__border"></div>
+                </div>
+
+                <div class="services__card">
+                    <i class="ri-code-s-slash-line"></i>
+
+                    <h2 class="services__title">
+                        Web <br>
+                        Development
+                    </h2>
+
+                    <p class="services__description">
+                        Service that provides the best quality and at 
+                        the request of the client, with professional 
+                        work and customer support.
+                    </p>
+
+                    <div class="services__border"></div>
+                </div>
+
+                <div class="services__card">
+                    <i class="ri-edit-box-line"></i>
+
+                    <h2 class="services__title">
+                        Photoshop <br>
+                        Edit
+                    </h2>
+
+                    <p class="services__description">
+                        Service that provides the best quality and at 
+                        the request of the client, with professional 
+                        work and customer support.
+                    </p>
+
+                    <div class="services__border"></div>
+                </div>
+            </div>
+        </section>
+        
+        <!--=============== PROJECTS ==============-->
+        <section class="projects section" id="projects">
+            
+                <h2 class="section__title">Projects</h2>
+                <span class="section__subtitle">As a Fresher</span>
+    
+                <div class="projects__container container grid section__border">
+                    
+                    <div class="projects__content">
+                        <h3 class="projects__title">
+                            <i class="ri-braces-line"></i> Development Projects
+                        </h3>
+    
+                        <div class="projects__info">
+
+                            <!--=================== HTML CSS & JS PROJECT  ===================-->
+                            <div class="projects__data">
+                                <div class="projects__blob">
+                                    <img src="Assest/images/Project_thumbnail_img/html,css,js2-01.jpg" alt="projects image">
+                                </div>
+    
+                                <h3 class="projects__name">HTML5 , CSS , JavaScript</h3>
+                                <span class="projects__subtitle">Projects</span>
+                                
+                            </div>
+
+                            <!--=================== PROJECT CAROUSEL START ===================-->
+                            <div class="overlay__swiper">
+                                <i class="ri-close-line" id="popup__close-btn"></i>
+                                <div class="swiper mySwiper">
+                                    <div class="swiper-wrapper">
+
+                                        <!-- 1st slide -->
+                                        <div class="swiper-slide slide__item">
+                                            <div class="slider__image">
+                                                <img src="Assest/images/Project_thumbnail_img/travelwebsite.jpg" alt="slider image" class="slide__img">
+                                            </div>
+
+                                            <div class="slider__item-content">
+                                                <h3>Travel Responsive Website</h3>
+                                                <p>Program Use : <span>HTML5 , CSS , JavaScript</span></p>
+
+                                                <div class="preview__btns">
+                                                    <button class="live__Preview">Live Preview</button>
+													<button class="download__Code"><a href="Assest/project_zip_file/TRAVEL_RESPONSIVE_WEBSITE.zip" download="" >Download Code</a></button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- 2nd slide -->
+                                        <div class="swiper-slide slide__item">
+                                            <div class="slider__image">
+                                                <img src="Assest/images/Project_thumbnail_img/1175129_OS971A1.jpg" alt="slider image" class="slide__img">
+                                            </div>
+
+                                            <div class="slider__item-content">
+                                                <h3>E-learning Website</h3>
+                                                <p>Program Use : <span>HTML5 , CSS , JavaScript</span></p>
+
+                                                <div class="preview__btns">
+                                                    <button class="live__Preview">Live Preview</button>
+													<button class="download__Code"><a href="Assest/project_zip_file/E-LEARNING_WEBSITE.zip" download="" >Download Code</a></button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- 3rd slide -->
+                                        <div class="swiper-slide slide__item">
+                                            <div class="slider__image">
+                                                <img src="Assest/images/Project_thumbnail_img/facebookloginpage.jpg" alt="slider image" class="slide__img">
+                                            </div>
+
+                                            <div class="slider__item-content">
+                                                <h3>Facebook login page Clone</h3>
+                                                <p>Program Use : <span>HTML5 , CSS</span></p>
+
+                                                <div class="preview__btns">
+                                                    <button class="live__Preview">Live Preview</button>
+													<button class="download__Code"><a href="Assest/project_zip_file/FACEBOOK_LOGIN_PAGE.zip" download="" >Download Code</a></button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- 4th slide -->
+                                        <div class="swiper-slide slide__item">
+                                            <div class="slider__image">
+                                                <img src="Assest/images/Project_thumbnail_img/burgur-house.jpg" alt="slider image" class="slide__img">
+                                            </div>
+
+                                            <div class="slider__item-content">
+                                                <h3>Burger House</h3>
+                                                <p>Program Use : <span>HTML5 , CSS</span></p>
+
+                                                <div class="preview__btns">
+                                                    <button class="live__Preview">Live Preview</button>
+													<button class="download__Code"><a href="Assest/project_zip_file/BURGER_HOUSE_WEBSITE.zip" download="" >Download Code</a></button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="slider__btns">
+                                        <div class="swiper-button-next"><i class="ri-arrow-right-line"></i></div>
+    									<div class="swiper-button-prev"><i class="ri-arrow-left-line"></i></div>
+                                    </div>
+
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                            </div>
+                            
+
+                            <!--=================== PROJECT CAROUSEL END ===================-->
+                            
+                            
+                            <!--=================== HTML BOOTSTRAP & JS PROJECT  ===================-->
+                            <div class="projects__data">
+                                <div class="projects__blob">
+                                    <img src="Assest/images/Project_thumbnail_img/bootstrap-01.jpg" alt="projects image">
+                                </div>
+    
+                                <h3 class="projects__name">HTML5 , Bootstrap , JavaScript</h3>
+                                <span class="projects__subtitle">Projects</span>
+                            </div>
+
+                            <!--=================== PROJECT CAROUSEL START ===================-->
+                            <div class="overlay__swiper">
+                                <i class="ri-close-line" id="popup__close-btn"></i>
+                                <div class="swiper mySwiper">
+                                    <div class="swiper-wrapper">
+
+                                        <!-- 1st slide -->
+                                        <div class="swiper-slide slide__item">
+                                            <div class="slider__image">
+                                                <img src="Assest/images/Project_thumbnail_img/vegitablewebsite.jpg" alt="slider image" class="slide__img">
+                                            </div>
+
+                                            <div class="slider__item-content">
+                                                <h3>Multipage Online grocery, fruits and vegetables shopping Website</h3>
+                                                <p>Program Use : <span>HTML5 , Bootstrap , CSS , JavaScript</span></p>
+
+                                                <div class="preview__btns">
+                                                    <button class="live__Preview">Live Preview</button>
+													<button class="download__Code"><a href="Assest/project_zip_file/VEGETABLE_MULTI_PAGE_WEBSITE.zip" download="" >Download Code</a></button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- 2nd slide -->
+                                        <div class="swiper-slide slide__item">
+                                            <div class="slider__image">
+                                                <img src="Assest/images/Project_thumbnail_img/food.jpg" alt="slider image" class="slide__img">
+                                            </div>
+
+                                            <div class="slider__item-content">
+                                                <h3>Food Website</h3>
+                                                <p>Program Use : <span>HTML5 , Bootstrap , CSS , JavaScript</span></p>
+
+                                                <div class="preview__btns">
+                                                    <button class="live__Preview">Live Preview</button>
+													<button class="download__Code"><a href="Assest/project_zip_file/FOOD WEBSITE.zip" download="" >Download Code</a></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="slider__btns">
+                                        <div class="swiper-button-next"><i class="ri-arrow-right-line"></i></div>
+    									<div class="swiper-button-prev"><i class="ri-arrow-left-line"></i></div>
+                                    </div>
+
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                            </div>
+                            
+
+                            <!--=================== PROJECT CAROUSEL END ===================-->
+                        
+                            
+                            <!--=================== JS PROJECT  ===================-->
+                            <div class="projects__data">
+                                <div class="projects__blob">
+                                    <img src="Assest/images/Project_thumbnail_img/js2.jpg" alt="projects image">
+                                </div>
+    
+                                <h3 class="projects__name">JavaScript</h3>
+                                <span class="projects__subtitle">Projects</span>
+                            </div>
+
+                            <!--=================== PROJECT CAROUSEL START ===================-->
+                            <div class="overlay__swiper">
+                                <i class="ri-close-line" id="popup__close-btn"></i>
+                                <div class="swiper mySwiper">
+                                    <div class="swiper-wrapper">
+
+                                        <!-- 1st slide -->
+                                        <div class="swiper-slide slide__item">
+                                            <div class="slider__image">
+                                                <img src="Assest/images/Project_thumbnail_img/digitalclock.jpg" alt="slider image" class="slide__img">
+                                            </div>
+
+                                            <div class="slider__item-content">
+                                                <h3>Digital Clock</h3>
+                                                <p>Program Use : <span>HTML5 , CSS , JavaScript</span></p>
+
+                                                <div class="preview__btns">
+                                                    <button class="live__Preview">Live Preview</button>
+													<button class="download__Code"><a href="Assest/project_zip_file/DIGITAL_CLOCK.zip" download="" >Download Code</a></button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- 2nd slide -->
+                                        <div class="swiper-slide slide__item">
+                                            <div class="slider__image">
+                                                <img src="Assest/images/Project_thumbnail_img/jscountdown.jpg" alt="slider image" class="slide__img">
+                                            </div>
+
+                                            <div class="slider__item-content">
+                                                <h3>Countdown Timer</h3>
+                                                <p>Program Use : <span>HTML5 , CSS , JavaScript</span></p>
+
+                                                <div class="preview__btns">
+                                                    <button class="live__Preview">Live Preview</button>
+													<button class="download__Code"><a href="Assest/project_zip_file/COUNTDOWN_TIMER.zip" download="" >Download Code</a></button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- 3rd slide -->
+                                        <div class="swiper-slide slide__item">
+                                            <div class="slider__image">
+                                                <img src="Assest/images/Project_thumbnail_img/jsformvalidation.jpg" alt="slider image" class="slide__img">
+                                            </div>
+
+                                            <div class="slider__item-content">
+                                                <h3>JS Form Validation</h3>
+                                                <p>Program Use : <span>HTML5 , CSS , JavaScript</span></p>
+
+                                                <div class="preview__btns">
+                                                    <button class="live__Preview">Live Preview</button>
+													<button class="download__Code"><a href="Assest/project_zip_file/FORM_VALIDATION.zip" download="" >Download Code</a></button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- 4th slide -->
+                                        <div class="swiper-slide slide__item">
+                                            <div class="slider__image">
+                                                <img src="Assest/images/Project_thumbnail_img/jsstopwatch.jpg" alt="slider image" class="slide__img">
+                                            </div>
+
+                                            <div class="slider__item-content">
+                                                <h3>Stop Watch</h3>
+                                                <p>Program Use : <span>HTML5 , CSS , JavaScript</span></p>
+
+                                                <div class="preview__btns">
+                                                    <button class="live__Preview">Live Preview</button>
+													<button class="download__Code"><a href="Assest/project_zip_file/STOP_WATCH.zip" download="" >Download Code</a></button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- 5th slide -->
+                                        <div class="swiper-slide slide__item">
+                                            <div class="slider__image">
+                                                <img src="Assest/images/Project_thumbnail_img/jsimguploader.jpg" alt="slider image" class="slide__img">
+                                            </div>
+
+                                            <div class="slider__item-content">
+                                                <h3>Image Uploader</h3>
+                                                <p>Program Use : <span>HTML5 , CSS , JavaScript</span></p>
+
+                                                <div class="preview__btns">
+                                                    <button class="live__Preview">Live Preview</button>
+													<button class="download__Code"><a href="Assest/project_zip_file/IMAGE_UPLOADER.zip" download="" >Download Code</a></button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- 6th slide -->
+                                        <div class="swiper-slide slide__item">
+                                            <div class="slider__image">
+                                                <img src="Assest/images/Project_thumbnail_img/video_player_thumbnail.png" alt="slider image" class="slide__img">
+                                            </div>
+
+                                            <div class="slider__item-content">
+                                                <h3>Video Player</h3>
+                                                <p>Program Use : <span>HTML5 , CSS , JavaScript</span></p>
+
+                                                <div class="preview__btns">
+                                                    <button class="live__Preview">Live Preview</button>
+													<button class="download__Code"><a href="Assest/project_zip_file/Video_player.zip" download="" >Download Code</a></button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- 7th slide -->
+                                        <div class="swiper-slide slide__item">
+                                            <div class="slider__image">
+                                                <img src="Assest/images/Project_thumbnail_img/password_generator.png" alt="slider image" class="slide__img">
+                                            </div>
+
+                                            <div class="slider__item-content">
+                                                <h3>Password Generator</h3>
+                                                <p>Program Use : <span>HTML5 , CSS , JavaScript</span></p>
+
+                                                <div class="preview__btns">
+                                                    <button class="live__Preview">Live Preview</button>
+													<button class="download__Code"><a href="Assest/project_zip_file/Password_generator.zip" download="" >Download Code</a></button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="slider__btns">
+                                        <div class="swiper-button-next"><i class="ri-arrow-right-line"></i></div>
+    									<div class="swiper-button-prev"><i class="ri-arrow-left-line"></i></div>
+                                    </div>
+
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                            </div>
+                            
+
+                            <!--=================== PROJECT CAROUSEL END ===================-->
+
+                        </div>
+                    </div>
+                </div>
+            
+        </section>
+
+        <!--=============== CONTACT ==============-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Me</h2>
+            <span class="section__subtitle">Get in touch</span>
+
+            <div class="contact__container container grid section__border">
+                <div class="contact__content">
+                    <h3 class="contact__title">
+                        <i class="ri-chat-3-line"></i> Talk to me
+                    </h3>
+
+                    <div class="contact__info">
+                        <div class="contact__data">
+                            <span class="contact__data-title">Email</span>
+                            <span class="contact__data-info">avijitpal184@gmail.com</span>
+                        </div>
+
+                        <div class="contact__data">
+                            <span class="contact__data-title">Whatsapp</span>
+                            <span class="contact__data-info">+91 7044169594</span>
+
+                            <a href="https://api.whatsapp.com/send?phone=917605876942" target="_blank" class="contact__button">
+                                Write me <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact__content">
+                    <h3 class="contact__title">
+                        <i class="ri-send-plane-line"></i> Write me your project
+                    </h3>
+
+                    <form action="" class="contact__form" id="contact-form">
+                        <div class="contact__form-div">
+                            <label class="contact__form-tag">Name</label>
+                            <input type="text" name="user_name" required placeholder="Write your name" class="contact__form-input" id="contact-name">
+                        </div>
+
+                        <div class="contact__form-div">
+                            <label class="contact__form-tag">Mail</label>
+                            <input type="email" name="user_name" required placeholder="write your email" class="contact__form-input" id="contact-email">
+                        </div>
+
+                        <div class="contact__form-div contact__form-area">
+                            <label class="contact__form-tag">Project</label>
+                            <textarea name="user_project" placeholder="Write your project" id="contact-project" class="contact__form-input"></textarea>
+                        </div>
+
+                        <p class="contact__message" id="contact-message"></p>
+
+                        <button type="submit" class="contact__button">
+                            Submit <i class="ri-arrow-right-up-line"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--=============== FOOTER ==============-->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">Avijit Pal</h1>
+            <p>Web Devloper</p>
+
+            <ul class="footer__list">
+                <li>
+                    <a href="#home" class="footer__link">Home</a>
+                </li>
+
+                <li>
+                    <a href="#skills" class="footer__link">Skills</a>
+                </li>
+
+                <li>
+                    <a href="#projects" class="footer__link">Projects</a>
+                </li>
+            </ul>
+
+            <ul class="footer__social">
+                <a href="#" target="_blank" class="footer__social-links">
+                    <i class="ri-facebook-circle-line"></i>
+                </a>
+
+                <a href="#" target="_blank" class="footer__social-links">
+                    <i class="ri-github-line"></i>
+                </a>
+
+                <a href="#" target="_blank" class="footer__social-links">
+                    <i class="ri-linkedin-box-line"></i>
+                </a>
+            </ul>
+
+            <span class="footer__copy">
+                © Copyright AvijitPal. All right reserved
+            </span>
+        </div>
+    </footer>
+
+    <!--=============== SCROLL UP ==============-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--=============== SCROLL REVEAL ==============-->
+    <script src="Assest/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ==============-->
+    <script src="Assest/js/swiper-bundle.min.js"></script>
+
+    <!--=============== EMAIL JS ==============-->
+
+        
+    <!--=============== PARTICLES.JS LINK ==============-->
+    <script src="Assest/js/particles.min.js"></script>
+    <script src="Assest/js/app.js"></script>
+
+    <!--=============== MAIN.JS LINK ==============-->
+    <script src="Assest/js/main.js"></script>
+</body>
+</html>
